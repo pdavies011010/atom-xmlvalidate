@@ -26,7 +26,7 @@ Or you can install through the Settings view by searching for 'XML Validate'.
 
 ## Usage
 
-- atom-xmlvalidate looks for a schema referenced in either the top level *schemaLocation* or *noNamespaceSchemaLocation* attribute. Currently it only supports validating against a single schema, so when using the *schemaLocation* attribute there must be only one schema supplied in `[namespace] [location]`
+- atom-xmlvalidate looks for a schema referenced in either the top level *schemaLocation* or *noNamespaceSchemaLocation* attribute. Currently it only supports validating against a single schema, so when using the *schemaLocation* attribute there must be only one schema supplied in `[namespace] [location]` format
 - Open the XML validation results panel by going to `Packages -> XML Validate -> Toggle`. Documents
   will automatically validate when they are saved.
 - Force validation using the `Validate XML` context-menu item.
