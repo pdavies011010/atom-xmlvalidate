@@ -9,7 +9,7 @@
   "disabledActivationCommands": {
     "atom-workspace": [ "atom-xmlvalidate:toggle", "atom-xmlvalidate:validate" ]
   },
-  "repository": "https://github.com/binary011010/atom-xmlvalidate",
+  "repository": "https://github.com/pdavies011010/atom-xmlvalidate",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
