@@ -34,5 +34,6 @@ Or you can install through the Settings view by searching for 'XML Validate'.
 
 ## To-Do
 
+- Test installation and usage on MacOs / \*nix platforms
 - Write more and better specs
 - Rewrite using a non-native XML validation library (which from what I can tell doesn't exist yet)
