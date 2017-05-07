@@ -2,7 +2,7 @@
   "name": "atom-xmlvalidate",
   "main": "./lib/atom-xmlvalidate",
   "version": "0.1.0",
-  "description": "Validates xml documents against an xsd schema",
+  "description": "Validates xml documents against their XSD schemas",
   "keywords": [
     "xml",
     "xsd",
