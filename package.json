@@ -1,0 +1,21 @@
+{
+  "name": "atom-xmlvalidate",
+  "main": "./lib/atom-xmlvalidate",
+  "version": "0.1.0",
+  "description": "Validates xml documents against an xsd schema",
+  "keywords": [
+    "xml", "xsd", "validate", "validation"
+  ],
+  "disabledActivationCommands": {
+    "atom-workspace": [ "atom-xmlvalidate:toggle", "atom-xmlvalidate:validate" ]
+  },
+  "repository": "https://github.com/pdavies/atom-xmlvalidate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "libxml-xsd": "0.5.2",
+    "lodash": "4.17.4"
+  }
+}

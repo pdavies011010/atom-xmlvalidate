@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Validate XML",
+        "command": "atom-xmlvalidate:validate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "XML Validate",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-xmlvalidate:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
