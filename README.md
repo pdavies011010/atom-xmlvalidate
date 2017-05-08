@@ -15,7 +15,9 @@ Note: This package depends libxml which is a native library built using node-gyp
 
 In short:
 - node, npm and Python 2 (>=2.7.0)
-- Some OS specific requirements: (On Windows I got it to work by first installing: Windows SDK, Visual Studio 2013 Express)
+- Some OS specific requirements:
+  - MacOs: XCode
+  - Windows: I got it working by first installing Windows SDK, Visual Studio 2013 Express; although the link above should have 'official'
 
 To Install:
 ```
@@ -35,6 +37,5 @@ Or you can install through the Settings view by searching for 'XML Validate'.
 
 ## To-Do
 
-- Test installation and usage on MacOs / \*nix platforms
-- Write more and better specs
+- Test installation and usage on \*nix platforms
 - Rewrite using a non-native XML validation library (which from what I can tell doesn't exist yet)
