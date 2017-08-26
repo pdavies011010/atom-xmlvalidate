@@ -32,7 +32,7 @@ Or you can install through the Settings view by searching for 'XML Validate'.
     
     Examples: 
     ```xml
-    <Pets noNamespaceSchemaLocation="http://caspii.com/path/to/schemas/petSchema.xsd">
+    <Pets noNamespaceSchemaLocation="http://mynamespace.com/path/to/schemas/petSchema.xsd">
       <Dog />
       <Cat />
     </Pets>
