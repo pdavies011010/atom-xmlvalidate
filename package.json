@@ -21,7 +21,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "libxml-xsd": "0.5.2",
+    "libxmljs": "0.18.7",
     "lodash": "4.17.4"
   }
 }
